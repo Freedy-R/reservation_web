@@ -1,0 +1,16 @@
+nav {
+  padding: 1rem;
+  background-color: #1b4343;
+  display: grid;
+  grid-template-columns: min-content min-content 1fr;
+  grid-auto-flow: column;
+  gap: 1.5rem;
+  color: #f5a961;
+}
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #f5a961;
+}
