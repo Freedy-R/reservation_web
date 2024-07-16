@@ -11,9 +11,11 @@
   font: inherit;
   font-size: 1.1rem;
 }
-body {
-  min-height: 100svh;
+.App {
+  position: relative;
+  height: 100vh;
   background-color: #e9e8e6;
+  font-size: 1.1rem;
 }
 img,
 picture,

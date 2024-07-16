@@ -17,6 +17,7 @@ const Resources = () => {
         {data.resources.map((resource) => (
           <div className="resource_item" key={resource.id}>
             {resource.name}
+            <button className="btn_resource_reserve">Reserve</button>
           </div>
         ))}
       </section>

@@ -11,9 +11,7 @@ const Navigation = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <button className="btnReserve">
-            <Link to="/resources">Reserve</Link>
-          </button>
+          <Link to="/resources">Resources</Link>
         </li>
       </ul>
     </nav>
