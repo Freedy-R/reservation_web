@@ -13,9 +13,13 @@ const Resources = () => {
   if (error) return <p>Error...</p>;
   return (
     <>
-      {data.resources.map((resource) => (
-        <div key={resource.id}>{resource.name}</div>
-      ))}
+      <section className="resource">
+        {data.resources.map((resource) => (
+          <div className="resource_item" key={resource.id}>
+            {resource.name}
+          </div>
+        ))}
+      </section>
     </>
   );
 };

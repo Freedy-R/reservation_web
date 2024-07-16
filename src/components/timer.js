@@ -7,8 +7,10 @@ const Timer = () => {
   }, []);
   return (
     <>
-      <div>{currentDate.toLocaleTimeString()}</div>
-      <div>{currentDate.toLocaleDateString()}</div>
+      <section className="timer">
+        <div>{currentDate.toLocaleTimeString()}</div>
+        <div>{currentDate.toLocaleDateString()}</div>
+      </section>
     </>
   );
 };

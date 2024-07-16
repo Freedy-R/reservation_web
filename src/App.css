@@ -1,11 +1,13 @@
 nav {
+  position: relative;
   padding: 1rem;
+  height: 1rem;
   background-color: #1b4343;
   display: grid;
-  grid-template-columns: min-content min-content 1fr;
+  grid-template-columns: min-content 1fr min-content;
   grid-auto-flow: column;
-  gap: 1.5rem;
   color: #f5a961;
+  gap: 0.3rem;
 }
 ul,
 li,
@@ -13,4 +15,40 @@ a {
   text-decoration: none;
   list-style: none;
   color: #f5a961;
+}
+.navlinks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.3rem;
+}
+.navlinks button {
+  background-color: #f5a961;
+  border: transparent;
+  padding: 0.3rem;
+  transform: translateY(-0.5rem);
+  border-radius: 15px;
+}
+.navlinks button a {
+  color: black;
+}
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  gap: 0.5rem;
+}
+
+.resource {
+  display: grid;
+  grid-template-rows: repeat(3, minmax(100px, 1fr));
+  gap: 1rem;
+  margin-top: 7rem;
+}
+.resource_item {
+  background-color: #e4e3e2;
+  padding: 1rem;
 }
