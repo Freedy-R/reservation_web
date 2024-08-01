@@ -2,6 +2,9 @@ import room6 from "../Assets/Addons/rooms/room6.jpeg";
 import room8 from "../Assets/Addons/rooms/room8.jpeg";
 import room5 from "../Assets/Addons/rooms/room5.jpeg";
 import hotel from "../Assets/Addons/rooms/hotel.jpeg";
+
+import fern_left from "../Assets/Addons/decoration/fern_left.png";
+import fern_right from "../Assets/Addons/decoration/fern_right.png";
 const Home = () => {
   return (
     <>
@@ -32,15 +35,15 @@ const Home = () => {
           <b> The Forest Retreat Hotel Team </b>
         </section>
         <section className="hotel_section">
-          <picture>
-            <img src={hotel} alt="hotel" />
-          </picture>
-          <picture>
-            <img src={hotel} alt="hotel" />
-          </picture>
-          <picture>
-            <img src={hotel} alt="hotel" />
-          </picture>
+          <figure>
+            <img src={fern_left} alt="" />
+          </figure>
+          <figure>
+            <img src={hotel} alt="" />
+          </figure>
+          <figure>
+            <img src={fern_right} alt="" />
+          </figure>
         </section>
       </main>
     </>

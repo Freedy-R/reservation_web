@@ -116,8 +116,27 @@ main {
   text-wrap: preety;
   text-align: center;
 }
+
 .hotel_section {
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1.8fr 1fr;
   place-items: center;
+  margin-top: 4rem;
+}
+
+.hotel_section figure:nth-child(1) {
+  display: flex;
+  margin-right: auto;
+}
+.hotel_section figure:nth-child(3) {
+  display: flex;
+  margin-left: auto;
+}
+.hotel_section figure:nth-child(1) img {
+  transform: translate(0rem, 2rem);
+}
+
+.hotel_section figure:nth-child(3) img {
+  transform: translate(0rem, -4rem);
 }
