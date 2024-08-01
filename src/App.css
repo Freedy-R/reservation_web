@@ -1,14 +1,15 @@
 nav {
   position: sticky;
   display: grid;
-  grid-template-columns: min-content 1fr min-content;
-  grid-auto-flow: column;
-  top: 0;
+  grid-template-columns: min-content 1fr;
+  top: 10px;
   z-index: 1;
   padding: 1rem;
   height: 1rem;
-  background-color: #1b4343;
-  color: #f5a961;
+  background: radial-gradient(circle, rgba(112, 126, 85, 1) 0%, rgba(154, 174, 115, 1) 100%);
+  box-shadow: 0px 22px 24px 0px rgba(92, 35, 36, 1);
+  margin: 0.8rem;
+  border-radius: 1rem;
   gap: 0.3rem;
 }
 ul,
@@ -16,19 +17,30 @@ li,
 a {
   text-decoration: none;
   list-style: none;
-  color: #f5a961;
+  color: black;
+}
+nav li {
+  display: grid;
+  place-items: center;
+  height: 2rem;
+  width: 2rem;
+  padding: 0.3rem;
+  transform: translateY(-15px);
+  border-radius: 99px;
+  background: #808f61;
+  box-shadow: inset 24px 24px 23px #5d6847, inset -24px -24px 23px #a3b67b;
+  border: 0.1rem solid #889967;
 }
 .navlinks {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.3rem;
 }
-
 .logo {
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
-
 .timer {
   display: grid;
   grid-template-columns: repeat(2, min-content);
@@ -64,4 +76,8 @@ a {
 }
 .btn_resource_reserve:hover {
   background-color: #d39a59;
+}
+main {
+  margin-top: 8rem;
+  background-color: #a3b67b;
 }

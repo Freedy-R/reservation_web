@@ -10,7 +10,7 @@ const GET_RESOURCES = gql`
 const Resources = () => {
   const { data, loading, error } = useQuery(GET_RESOURCES);
   if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error...</p>;
+  if (error) return <p>Not loaded</p>;
   return (
     <>
       <section className="resource">
