@@ -5,11 +5,13 @@ import hotel from "../Assets/Addons/rooms/hotel.jpeg";
 
 import fern_left from "../Assets/Addons/decoration/fern_left.png";
 import fern_right from "../Assets/Addons/decoration/fern_right.png";
+import VineLeft from "../Assets/Addons/decoration/vine_left";
 const Home = () => {
   return (
     <>
       <main>
         <section className="gallery_section">
+          <VineLeft></VineLeft>
           <picture className="gallery">
             <img className="room" alt="room5" src={room5} />
             <img className="room active" alt="room6" src={room6} />
