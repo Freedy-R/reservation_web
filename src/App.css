@@ -11,6 +11,7 @@ nav {
   margin: 0.8rem;
   border-radius: 1rem;
   gap: 0.3rem;
+  z-index: 10;
 }
 ul,
 li,
@@ -39,7 +40,6 @@ nav li {
 .logo {
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
 }
 .timer {
   display: grid;
@@ -78,6 +78,46 @@ nav li {
   background-color: #d39a59;
 }
 main {
+  margin-top: 10rem;
+}
+.gallery {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, auto);
+  place-content: center;
+}
+.room {
+  transition: 1s ease-in-out scale, filter;
+  border-radius: 23px;
+  filter: blur(0.2rem);
+}
+
+.active {
+  box-shadow: 0px 22px 24px -10px rgba(207, 136, 35, 1);
+}
+
+.room:hover {
+  scale: 1.3;
+  filter: none;
+}
+.active {
+  scale: 1.3;
+  filter: none;
+  z-index: 1;
+}
+.welcome_section {
   margin-top: 8rem;
-  background-color: #a3b67b;
+  display: grid;
+  place-items: center;
+}
+.welcome_section p {
+  font-weight: 300;
+  max-width: 82ch;
+  text-wrap: preety;
+  text-align: center;
+}
+.hotel_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
 }

@@ -13,9 +13,18 @@
 }
 .App,
 body {
+  display: grid;
+  grid-template-rows: min-content;
   position: relative;
-  height: 100vh;
-  background-color: #27711e;
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(61, 113, 63, 1) 0%,
+    rgba(68, 95, 83, 1) 15%,
+    rgba(31, 65, 27, 1) 30%,
+    rgba(46, 42, 38, 1) 55%
+  );
   font-size: 1.1rem;
 }
 img,
@@ -25,16 +34,17 @@ video {
   display: block;
   max-width: 100%;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: balance;
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 p {
-  max-width: 62ch;
-  margin-bottom: 2rem;
-  text-wrap: pretty;
+  font-size: 1.15rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+b {
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
