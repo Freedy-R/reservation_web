@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/forest/static/css/main.ac03d980.css",
+    "main.js": "/forest/static/js/main.8026e67c.js",
+    "static/js/453.2c448fd0.chunk.js": "/forest/static/js/453.2c448fd0.chunk.js",
+    "static/media/hotel.jpeg": "/forest/static/media/hotel.a68b7e42cc6307ded45e.jpeg",
+    "static/media/logo.png": "/forest/static/media/logo.e368f5c5fd6ad1f07433.png",
+    "static/media/fern_right.png": "/forest/static/media/fern_right.c4b14c332fd2a3a330c4.png",
+    "static/media/fern_left.png": "/forest/static/media/fern_left.1bef76f7d206aebd6279.png",
+    "static/media/room8.jpeg": "/forest/static/media/room8.f473063af21b7b7f3759.jpeg",
+    "static/media/room5.jpeg": "/forest/static/media/room5.e225eb1cb5fcb0bbb6a8.jpeg",
+    "static/media/room6.jpeg": "/forest/static/media/room6.7ed1be562c9ebb7f3e25.jpeg",
+    "index.html": "/forest/index.html",
+    "main.ac03d980.css.map": "/forest/static/css/main.ac03d980.css.map",
+    "main.8026e67c.js.map": "/forest/static/js/main.8026e67c.js.map",
+    "453.2c448fd0.chunk.js.map": "/forest/static/js/453.2c448fd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac03d980.css",
+    "static/js/main.8026e67c.js"
+  ]
+}
