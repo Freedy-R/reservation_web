@@ -120,21 +120,6 @@ main {
   right: 0;
   z-index: 2;
 }
-@media (max-width: 430px) {
-  .rocks_section {
-    transform: translateY(1rem);
-  }
-  .vine_left_svg {
-    width: 50%;
-    position: absolute;
-    transform: translateY(-19rem);
-  }
-  .vine_right_svg {
-    width: 50%;
-    position: absolute;
-    transform: translateY(-19rem);
-  }
-}
 
 .room {
   transition: 1s ease-in-out scale, filter;
@@ -200,4 +185,59 @@ footer {
 }
 #wood_left {
   transform: translateX(-2.3rem);
+}
+
+@media (max-width: 430px) {
+  .rocks_section {
+    transform: translateY(1rem);
+  }
+  .vine_left_svg {
+    width: 50%;
+    position: absolute;
+    transform: translateY(-19rem);
+  }
+  .vine_right_svg {
+    width: 50%;
+    position: absolute;
+    transform: translateY(-19rem);
+  }
+}
+@media ((min-width: 430px) and (max-width: 600px)) {
+  .rocks_section {
+    transform: translateY(1rem);
+  }
+  .vine_left_svg {
+    width: 50%;
+    position: absolute;
+    transform: translateX(-2rem);
+    transform: translateY(-19rem);
+  }
+  .vine_right_svg {
+    width: 50%;
+    position: absolute;
+    transform: translateX(2rem);
+    transform: translateY(-19rem);
+  }
+}
+@media ((min-width: 600px) and (max-width: 1500px)) {
+  .rocks_section {
+    transform: translateY(1rem);
+  }
+  .vine_left_svg {
+    width: 50%;
+    position: absolute;
+    transform: translateX(-2rem);
+    transform: translateY(-13rem);
+  }
+  .vine_right_svg {
+    width: 50%;
+    position: absolute;
+    transform: translateX(2rem);
+    transform: translateY(-13rem);
+  }
+}
+@media (min-width: 1920px) {
+  .rocks {
+    width: 80%;
+  }
 }
