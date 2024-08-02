@@ -7,6 +7,8 @@ import fern_left from "../Assets/Addons/decoration/fern_left.png";
 import fern_right from "../Assets/Addons/decoration/fern_right.png";
 import VineLeft from "../Assets/Addons/decoration/vine_left";
 import VineRight from "../Assets/Addons/decoration/vine_right";
+import StoneWall from "../Assets/Addons/decoration/stone_wall";
+import Rocks from "../Assets/Addons/decoration/rocks";
 
 const Home = () => {
   return (
@@ -21,7 +23,9 @@ const Home = () => {
           </picture>
           <VineRight />
         </section>
-
+        <section className="rocks_section">
+          <Rocks></Rocks>
+        </section>
         <section className="welcome_section">
           <h1>Welcome to our Hotel!</h1>
           <p>
@@ -34,10 +38,8 @@ const Home = () => {
             immerse yourself in the forest's calming embrace. Whether you're here for relaxation, adventure, or to
             recharge, we're here to make your stay magical.
           </p>
-          <div>
-            <p>Welcome to your forest haven</p>
-            <p>Warm regards,</p>
-          </div>
+          <p>Welcome to your forest haven</p>
+          <p>Warm regards,</p>
           <b> The Forest Retreat Hotel Team </b>
         </section>
         <section className="hotel_section">
@@ -52,6 +54,11 @@ const Home = () => {
           </figure>
         </section>
       </main>
+      <footer>
+        <section className="contact_section">
+          <StoneWall></StoneWall>
+        </section>
+      </footer>
     </>
   );
 };
