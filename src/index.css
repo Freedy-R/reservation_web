@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap");
 @media (prefers-reduced-motion: no-preference) {
   :has(:target) {
     scroll-behavior: smooth;
@@ -18,6 +19,7 @@ body {
   grid-template-rows: min-content;
   position: relative;
   min-height: 100vh;
+  font-family: "Kameron";
   color: white;
   background: linear-gradient(
     180deg,
