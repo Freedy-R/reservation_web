@@ -1,14 +1,7 @@
 const WoodLeft = () => {
   return (
     <>
-      <svg
-        className="wood_left_svg"
-        width="213"
-        height="auto"
-        viewBox="0 0 213 1006"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg className="wood_left_svg" viewBox="0 0 213 1006" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clipPath="url(#clip0_26_22)">
           <path
             fillRule="evenodd"

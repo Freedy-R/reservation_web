@@ -4,6 +4,9 @@ const Navigation = () => {
   return (
     <header>
       <nav>
+        <section className="logo_section">
+          <img className="logo" src={logo} alt="" />
+        </section>
         <ul className="navlinks">
           <Link to="/reservation_web">
             <figure className="navlinks_item">
@@ -34,7 +37,6 @@ const Navigation = () => {
             </figure>
           </Link>
         </ul>
-        <img className="logo" src={logo} alt="" />
       </nav>
     </header>
   );

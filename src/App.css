@@ -6,6 +6,15 @@ nav {
   top: 0;
   z-index: 10;
 }
+.logo_section {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0.3rem;
+  margin-top: 0.3rem;
+}
 .navlinks {
   display: grid;
   grid-auto-flow: column;
@@ -16,7 +25,6 @@ nav {
 .navlinks a {
   color: #e1e34f;
 }
-
 .navlinks_item {
   display: grid;
   grid-template-columns: repeat(2, max-content);
@@ -25,16 +33,11 @@ nav {
   display: flex;
   align-items: end;
 }
-.logo {
-  margin-left: auto;
-  margin-right: auto;
-}
 .timer {
   display: grid;
   grid-template-columns: repeat(2, min-content);
   gap: 0.5rem;
 }
-
 .resource {
   position: relative;
   margin-top: 7rem;
@@ -175,6 +178,9 @@ footer {
 }
 
 @media (max-width: 430px) {
+  nav {
+    place-items: start;
+  }
   .rocks_section {
     transform: translateY(1rem);
   }
