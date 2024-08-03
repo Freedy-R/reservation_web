@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reservation_web/static/css/main.ac03d980.css",
-    "main.js": "/reservation_web/static/js/main.74b33d08.js",
+    "main.css": "/reservation_web/static/css/main.eebcabf3.css",
+    "main.js": "/reservation_web/static/js/main.32b3281f.js",
     "static/js/453.2c448fd0.chunk.js": "/reservation_web/static/js/453.2c448fd0.chunk.js",
     "static/media/hotel.jpeg": "/reservation_web/static/media/hotel.a68b7e42cc6307ded45e.jpeg",
     "static/media/logo.png": "/reservation_web/static/media/logo.e368f5c5fd6ad1f07433.png",
@@ -11,12 +11,12 @@
     "static/media/room5.jpeg": "/reservation_web/static/media/room5.e225eb1cb5fcb0bbb6a8.jpeg",
     "static/media/room6.jpeg": "/reservation_web/static/media/room6.7ed1be562c9ebb7f3e25.jpeg",
     "index.html": "/reservation_web/index.html",
-    "main.ac03d980.css.map": "/reservation_web/static/css/main.ac03d980.css.map",
-    "main.74b33d08.js.map": "/reservation_web/static/js/main.74b33d08.js.map",
+    "main.eebcabf3.css.map": "/reservation_web/static/css/main.eebcabf3.css.map",
+    "main.32b3281f.js.map": "/reservation_web/static/js/main.32b3281f.js.map",
     "453.2c448fd0.chunk.js.map": "/reservation_web/static/js/453.2c448fd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac03d980.css",
-    "static/js/main.74b33d08.js"
+    "static/css/main.eebcabf3.css",
+    "static/js/main.32b3281f.js"
   ]
 }
