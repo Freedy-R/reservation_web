@@ -7,7 +7,7 @@ const Navigation = () => {
       <nav>
         <ul className="navlinks">
           <li>
-            <Link to="/">
+            <Link to="/reservation_web">
               <img src={home_icon} alt="" />
             </Link>
           </li>
