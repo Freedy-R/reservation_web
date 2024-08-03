@@ -1,2 +1,3 @@
 This a website for a Forest Retreat Hotel, website uses an API, which I have been developing :)
-![Desktop - 1](https://github.com/user-attachments/assets/bac472d5-6a2c-45db-808d-30870a68362b)
+
+![screenshot](https://github.com/user-attachments/assets/426dace0-118f-4021-a24d-20e419e36226)
