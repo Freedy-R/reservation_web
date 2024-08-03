@@ -9,7 +9,7 @@ const WoodLeft = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_26_22)">
+        <g clipPath="url(#clip0_26_22)">
           <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -268,9 +268,9 @@ const WoodLeft = () => {
             width="114.242"
             height="135.573"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
             <feColorMatrix
               in="SourceAlpha"

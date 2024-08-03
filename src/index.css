@@ -12,6 +12,13 @@
   font: inherit;
   font-size: 1.1rem;
 }
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
 .App,
 body {
   display: flex;
@@ -21,15 +28,10 @@ body {
   min-height: 100vh;
   font-family: "Kameron";
   color: white;
-  background: linear-gradient(
-    180deg,
-    rgba(61, 113, 63, 1) 0%,
-    rgba(68, 95, 83, 1) 15%,
-    rgba(31, 65, 27, 1) 30%,
-    rgba(46, 42, 38, 1) 55%
-  );
+  background: linear-gradient(180deg, #3d713f 0%, #445f53 15%, #1f411b 30%, #2e2a26 55%);
   font-size: 1.1rem;
 }
+
 img,
 picture,
 svg,

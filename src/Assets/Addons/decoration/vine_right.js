@@ -9,7 +9,7 @@ const VineRight = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g id="vine_right" clip-path="url(#clip0_26_675)">
+        <g id="vine_right" clipPath="url(#clip0_26_675)">
           <g id="vine_right_leaves_big">
             <g id="vine_right_leaf_big_5">
               <path

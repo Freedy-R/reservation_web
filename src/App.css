@@ -1,46 +1,33 @@
 nav {
-  position: sticky;
+  position: fixed;
+  width: 100%;
   display: grid;
   grid-template-columns: min-content 1fr;
-  top: 10px;
-  z-index: 1;
-  padding: 1rem;
-  height: 1rem;
-  background: radial-gradient(circle, rgba(112, 126, 85, 1) 0%, rgba(154, 174, 115, 1) 100%);
-  box-shadow: 0px 22px 24px 0px rgba(92, 35, 36, 1);
-  margin: 0.8rem;
-  border-radius: 1rem;
-  gap: 0.3rem;
+  top: 0;
   z-index: 10;
-}
-ul,
-li,
-a {
-  text-decoration: none;
-  list-style: none;
-  color: black;
-}
-nav li {
-  display: grid;
-  place-items: center;
-  height: 2rem;
-  width: 2rem;
-  padding: 0.3rem;
-  transform: translateY(-15px);
-  border-radius: 99px;
-  background: #808f61;
-  box-shadow: inset 24px 24px 23px #5d6847, inset -24px -24px 23px #a3b67b;
-  border: 0.1rem solid #889967;
 }
 .navlinks {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.3rem;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2, min-content);
+  padding: 0.5rem;
+  gap: 10px;
+}
+.navlinks a {
+  color: #e1e34f;
+}
+
+.navlinks_item {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+}
+.navlinks_item figcaption {
+  display: flex;
+  align-items: end;
 }
 .logo {
   margin-left: auto;
   margin-right: auto;
-  transform: translateX(-3rem);
 }
 .timer {
   display: grid;
