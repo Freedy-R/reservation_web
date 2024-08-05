@@ -41,17 +41,17 @@ const Home = () => {
           <p>Welcome to your forest haven</p>
           <p>Warm regards,</p>
           <b> The Forest Retreat Hotel Team </b>
-        </section>
-        <section className="hotel_section">
-          <figure>
-            <img src={fern_left} alt="" />
-          </figure>
-          <figure>
-            <img src={hotel} alt="" />
-          </figure>
-          <figure>
-            <img src={fern_right} alt="" />
-          </figure>
+          <section className="hotel_section">
+            <figure>
+              <img src={fern_left} alt="" />
+            </figure>
+            <figure>
+              <img src={hotel} alt="" />
+            </figure>
+            <figure>
+              <img src={fern_right} alt="" />
+            </figure>
+          </section>
         </section>
       </main>
       <footer>
