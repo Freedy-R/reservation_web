@@ -19,8 +19,15 @@ a {
   list-style: none;
   color: white;
 }
-.App,
+
 body {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.App {
+  position: relative;
   display: flex;
   flex-direction: column;
   grid-template-rows: min-content;
@@ -28,7 +35,7 @@ body {
   min-height: 100vh;
   font-family: "Kameron";
   color: white;
-  background: linear-gradient(180deg, #3d713f 0%, #445f53 15%, #1f411b 30%, #2e2a26 55%);
+  background: #a2d693;
   font-size: 1.1rem;
 }
 
@@ -43,6 +50,7 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  text-align: center;
 }
 p {
   font-size: 1.15rem;

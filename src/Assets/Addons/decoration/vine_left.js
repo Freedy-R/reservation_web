@@ -1,14 +1,7 @@
 const VineLeft = () => {
   return (
     <>
-      <svg
-        className="vine_left_svg"
-        width="700"
-        height="742"
-        viewBox="0 0 700 742"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg className="vine_left_svg" viewBox="0 0 700 742" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="vine_left" clipPath="url(#clip0_26_180)">
           <g id="vine_left_leaves_big">
             <g id="vine_left_leaf_big_5">

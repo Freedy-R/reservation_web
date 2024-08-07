@@ -14,14 +14,16 @@ const Home = () => {
   return (
     <>
       <main>
-        <section className="gallery_section">
+        <div className="vines">
           <VineLeft />
+          <VineRight />
+        </div>
+        <section className="gallery_section">
           <picture className="gallery">
             <img className="room" alt="room5" src={room5} />
             <img className="room active" alt="room6" src={room6} />
             <img className="room" alt="room8" src={room8} />
           </picture>
-          <VineRight />
         </section>
         <section className="rocks_section">
           <Rocks></Rocks>
@@ -55,9 +57,7 @@ const Home = () => {
         </section>
       </main>
       <footer>
-        <section className="contact_section">
-          <StoneWall></StoneWall>
-        </section>
+        <StoneWall></StoneWall>
       </footer>
     </>
   );

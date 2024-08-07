@@ -3,8 +3,8 @@ const WoodRight = () => {
     <>
       <svg
         className="wood_right_svg"
-        width="213"
-        height="auto"
+        width="auto"
+        height="300"
         viewBox="0 0 213 1031"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
