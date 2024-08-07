@@ -4,40 +4,30 @@ header {
 nav {
   position: fixed;
   width: 100%;
+  height: 58px;
   display: grid;
-  grid-template-columns: min-content 1fr;
+  grid-auto-flow: column;
+  grid-template-columns: minmax(58px, min-content);
   top: 0;
   z-index: 10;
   background-color: #72a16591;
   backdrop-filter: blur(10px);
+  padding: 0.5rem;
 }
-.logo_section {
-  position: relative;
-  display: grid;
-  place-items: center;
-  width: 3rem;
-  height: 3rem;
-  margin-left: 0.3rem;
-  margin-top: 0.3rem;
-}
+
 .navlinks {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(2, min-content);
-  padding: 0.5rem;
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, min-content);
+  place-content: start;
+  gap: 1rem;
 }
 .navlinks a {
   color: black;
-}
-.navlinks_item {
   display: grid;
-  grid-template-columns: repeat(2, max-content);
+  place-items: center;
 }
-.navlinks_item figcaption {
-  display: flex;
-  align-items: end;
-}
+
 .timer {
   display: grid;
   grid-template-columns: repeat(2, min-content);
@@ -111,19 +101,6 @@ main {
   z-index: 3;
   transform: translateY(-1rem);
 }
-/* .vine_left_svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-}
-.vine_right_svg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-} */
-
 .room {
   transition: 1s ease-in-out scale, filter;
   border-radius: 23px;
@@ -200,7 +177,7 @@ footer {
   transform: translateX(-2.3rem);
 }
 
-@media (max-width: 430px) {
+@media (max-width: 576px) {
   .stone_wall_svg {
     transform: translateY(-5rem);
   }
@@ -210,49 +187,4 @@ footer {
   .rocks_section {
     transform: translateY(1rem);
   }
-  /* .vine_left_svg {
-    transform: translate(-2rem, -5rem);
-  }
-  .vine_right_svg {
-    transform: translate(0rem, -5rem);
-  } */
 }
-/* @media ((min-width: 430px) and (max-width: 600px)) {
-  .rocks_section {
-    transform: translateY(1rem);
-  }
-  .vine_left_svg {
-    width: 50%;
-    position: absolute;
-    transform: translateX(-2rem);
-    transform: translateY(-19rem);
-  }
-  .vine_right_svg {
-    width: 50%;
-    position: absolute;
-    transform: translateX(2rem);
-    transform: translateY(-19rem);
-  }
-}
-@media ((min-width: 600px) and (max-width: 1500px)) {
-  .rocks_section {
-    transform: translateY(1rem);
-  }
-  .vine_left_svg {
-    width: 50%;
-    position: absolute;
-    transform: translateX(-2rem);
-    transform: translateY(-13rem);
-  }
-  .vine_right_svg {
-    width: 50%;
-    position: absolute;
-    transform: translateX(2rem);
-    transform: translateY(-13rem);
-  }
-}
-@media (min-width: 1920px) {
-  .rocks {
-    width: 80%;
-  }
-} */
