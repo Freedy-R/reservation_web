@@ -30,29 +30,27 @@ const Home = () => {
         </section>
         <section className="welcome_section">
           <h1>Welcome to our Hotel!</h1>
-          <p>
-            We are delighted to welcome you to our serene sanctuary nestled in the heart of nature. Forest Retreat Hotel
-            is surrounded by lush forests and vibrant wildlife, offering a unique escape from city life. Many years ago,
-            a naturalist named Evelyn discovered this enchanting forest and envisioned a place where guests could
-            reconnect with nature. Inspired by her vision, our hotel was crafted to blend seamlessly with its
-            surroundings. Each element, from eco-friendly architecture to locally sourced cuisine, reflects our
-            commitment to preserving the environment. As you settle in, explore the trails, listen to the birds, and
-            immerse yourself in the forest's calming embrace. Whether you're here for relaxation, adventure, or to
-            recharge, we're here to make your stay magical.
-          </p>
-          <p>Welcome to your forest haven</p>
-          <p>Warm regards,</p>
-          <b> The Forest Retreat Hotel Team </b>
+          <section className="description">
+            <p>
+              We are delighted to welcome you to our serene sanctuary nestled in the heart of nature. Forest Retreat
+              Hotel is surrounded by lush forests and vibrant wildlife, offering a unique escape from city life. Many
+              years ago, a naturalist named Evelyn discovered this enchanting forest and envisioned a place where guests
+              could reconnect with nature. Inspired by her vision, our hotel was crafted to blend seamlessly with its
+              surroundings. Each element, from eco-friendly architecture to locally sourced cuisine, reflects our
+              commitment to preserving the environment. As you settle in, explore the trails, listen to the birds, and
+              immerse yourself in the forest's calming embrace. Whether you're here for relaxation, adventure, or to
+              recharge, we're here to make your stay magical.
+            </p>
+            <p>Welcome to your forest haven</p>
+            <p>Warm regards,</p>
+            <p>
+              <b> The Forest Retreat Hotel Team </b>
+            </p>
+          </section>
           <section className="hotel_section">
-            <figure>
-              <img src={fern_left} alt="" />
-            </figure>
-            <figure>
-              <img src={hotel} alt="" />
-            </figure>
-            <figure>
-              <img src={fern_right} alt="" />
-            </figure>
+            <img src={fern_left} alt="" />
+            <img src={hotel} alt="" />
+            <img src={fern_right} alt="" />
           </section>
         </section>
       </main>

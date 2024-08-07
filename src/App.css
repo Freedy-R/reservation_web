@@ -1,5 +1,5 @@
 header {
-  margin-bottom: 5rem;
+  margin-bottom: 6.5rem;
 }
 nav {
   position: fixed;
@@ -126,12 +126,17 @@ main {
   display: grid;
   place-items: center;
   background-color: #253636;
-  padding: 2rem;
-  z-index: 1;
 }
-.welcome_section p {
+
+.welcome_section h1 {
+  margin-top: 1rem;
+}
+.description {
+  padding: 0.5rem;
+}
+.description p {
   font-weight: 300;
-  max-width: 82ch;
+  max-width: 72ch;
   text-wrap: preety;
   text-align: center;
 }
@@ -141,50 +146,36 @@ main {
   display: grid;
   grid-template-columns: 1fr 1.8fr 1fr;
   place-items: center;
-  margin-top: 4rem;
+  z-index: 1;
 }
-
-.hotel_section figure:nth-child(1) {
-  display: flex;
+.hotel_section img:nth-child(1) {
   margin-right: auto;
+  place-self: end;
 }
-.hotel_section figure:nth-child(3) {
-  display: flex;
+.hotel_section img:nth-child(2) {
+  border-radius: 1rem;
+  transform: translateY(17rem);
+}
+.hotel_section img:nth-child(3) {
   margin-left: auto;
-}
-.hotel_section figure:nth-child(1) img {
-  transform: translate(0rem, 2rem);
-}
-.hotel_section figure:nth-child(2) img {
-  border-radius: 2.3rem;
-}
-.hotel_section figure:nth-child(3) img {
-  transform: translate(0rem, -4rem);
-}
-footer {
-  height: min-content;
-}
-.contact_section {
-  position: relative;
-  height: min-content;
-  display: grid;
-  z-index: 0;
-}
-.stone_wall_svg {
-  transform: translateY(-17rem);
+  place-self: start;
 }
 #wood_left {
   transform: translateX(-2.3rem);
 }
+footer {
+  background-color: #253636;
+}
+.stone_wall_svg {
+  position: relative;
+  z-index: 2;
+}
 
 @media (max-width: 576px) {
-  .stone_wall_svg {
-    transform: translateY(-5rem);
+  .hotel_section {
+    transform: translateY(1.3rem);
   }
-  nav {
-    place-items: start;
-  }
-  .rocks_section {
-    transform: translateY(1rem);
+  .hotel_section img:nth-child(2) {
+    transform: translateY(2rem);
   }
 }
