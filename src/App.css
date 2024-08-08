@@ -179,21 +179,21 @@ footer {
   padding: 1rem;
   grid-template-columns: max-content 1fr min-content;
   gap: 0.5rem;
-  margin-top: 5rem;
+  margin-block: 2rem;
 }
 
 .resource_item:nth-child(odd) svg {
   position: absolute;
-  height: 140%;
+  height: 130%;
   left: 0;
-  transform: translate(-1rem, -4rem);
+  transform: translate(-2rem, -3rem);
 }
 
 .resource_item:nth-child(even) svg {
   position: absolute;
-  height: 140%;
+  height: 130%;
   right: 0;
-  transform: translate(1rem, -3rem) rotateY(180deg);
+  transform: translate(2rem, -2rem) rotateY(180deg);
 }
 
 /* .btn_resource_reserve {
