@@ -9,8 +9,12 @@ import VineLeft from "../Assets/Addons/decoration/vine_left";
 import VineRight from "../Assets/Addons/decoration/vine_right";
 import StoneWall from "../Assets/Addons/decoration/stone_wall";
 import Rocks from "../Assets/Addons/decoration/rocks";
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <main>

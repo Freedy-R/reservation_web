@@ -3,6 +3,8 @@ import room6 from "../Assets/Addons/rooms/room6.jpeg";
 import room8 from "../Assets/Addons/rooms/room8.jpeg";
 import room5 from "../Assets/Addons/rooms/room5.jpeg";
 import VineLeft from "../Assets/Addons/decoration/vine_left";
+import { useEffect } from "react";
+
 const GET_RESOURCES = gql`
   query Resources {
     resources {
@@ -12,6 +14,9 @@ const GET_RESOURCES = gql`
   }
 `;
 const Resources = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // const { data, loading, error } = useQuery(GET_RESOURCES);
   // if (loading) return <p>Loading...</p>;
   // if (error) return <p>Not loaded</p>;
