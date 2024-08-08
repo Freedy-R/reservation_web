@@ -185,8 +185,17 @@ footer {
   border-radius: 1rem;
 }
 .resource_item p {
-  max-width: 72ch;
-  text-wrap: balance;
+  max-width: 82ch;
+}
+.resource_item button {
+  width: 130px;
+  height: 52px;
+  place-self: end;
+  margin-inline: 3rem;
+  margin-block: 2rem;
+  border-radius: 2rem;
+  background-color: #85ed68;
+  border: 0;
 }
 .resource_item:nth-child(odd) svg {
   position: absolute;

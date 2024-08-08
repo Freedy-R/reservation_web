@@ -34,6 +34,7 @@ body {
   animation: gradient 15s ease infinite;
   letter-spacing: 0.1rem;
   width: 100vw;
+  scroll-behavior: smooth;
 }
 @keyframes gradient {
   0% {
