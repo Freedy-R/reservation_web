@@ -45,7 +45,7 @@ const Resources = () => {
           </article>
           <article className="resource_item">
             <VineLeft></VineLeft>
-            <img src={room5} alt="room5" />
+            <img src={room6} alt="room6" />
             <p>
               This room combines soft pink and beige bedding with an array of framed artwork on the walls. A wooden desk
               by the window hosts a variety of potted plants, adding a touch of greenery. The fairy lights and a mix of
@@ -55,7 +55,7 @@ const Resources = () => {
           </article>
           <article className="resource_item">
             <VineLeft></VineLeft>
-            <img src={room5} alt="room5" />
+            <img src={room8} alt="room8" />
             <p>
               This room combines soft pink and beige bedding with an array of framed artwork on the walls. A wooden desk
               by the window hosts a variety of potted plants, adding a touch of greenery. The fairy lights and a mix of

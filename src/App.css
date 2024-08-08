@@ -181,7 +181,13 @@ footer {
   gap: 0.5rem;
   margin-block: 2rem;
 }
-
+.resource_item img {
+  border-radius: 1rem;
+}
+.resource_item p {
+  max-width: 72ch;
+  text-wrap: balance;
+}
 .resource_item:nth-child(odd) svg {
   position: absolute;
   height: 130%;
