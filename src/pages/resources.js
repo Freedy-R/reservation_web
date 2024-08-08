@@ -1,4 +1,8 @@
 import { useQuery, gql } from "@apollo/client";
+import room6 from "../Assets/Addons/rooms/room6.jpeg";
+import room8 from "../Assets/Addons/rooms/room8.jpeg";
+import room5 from "../Assets/Addons/rooms/room5.jpeg";
+import VineLeft from "../Assets/Addons/decoration/vine_left";
 const GET_RESOURCES = gql`
   query Resources {
     resources {
@@ -22,8 +26,36 @@ const Resources = () => {
         ))}
       </section> */}
       <main className="room_main">
-        <section className="resource"></section>
+        <aside className="room_filters">Aside menu</aside>
+        <section className="resource">
+          <article className="resource_item">
+            <VineLeft></VineLeft>
+            <img src={room5} alt="room5" />
+            <p>
+              This room combines soft pink and beige bedding with an array of framed artwork on the walls. A wooden desk
+              by the window hosts a variety of potted plants, adding a touch of greenery. The fairy lights and a mix of
+              modern and botanical prints add to the room's warm and welcoming feel
+            </p>
+            <button>Reserve</button>
+          </article>
+          <article className="resource_item">
+            <VineLeft></VineLeft>
+            <img src={room5} alt="room5" />
+            <p>
+              This room combines soft pink and beige bedding with an array of framed artwork on the walls. A wooden desk
+              by the window hosts a variety of potted plants, adding a touch of greenery. The fairy lights and a mix of
+              modern and botanical prints add to the room's warm and welcoming feel
+            </p>
+            <button>Reserve</button>
+          </article>
+        </section>
       </main>
+      <section className="test"></section>
+      <section className="test"></section>
+      <section className="test"></section>
+      <section className="test"></section>
+      <section className="test"></section>
+      <section className="test"></section>
     </>
   );
 };
