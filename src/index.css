@@ -4,6 +4,11 @@
     scroll-behavior: smooth;
   }
 }
+
+:root {
+  --background: linear-gradient(146deg, rgba(61, 113, 63, 1) 0%, rgba(162, 214, 147, 1) 100%);
+}
+
 *,
 *::after,
 *::before {
@@ -11,6 +16,7 @@
   padding: 0;
   font: inherit;
   font-size: 1.1rem;
+  box-sizing: border-box;
 }
 ul,
 li,
@@ -23,22 +29,35 @@ a {
 body {
   position: relative;
   min-height: 100vh;
+  background: var(--background);
+  background-size: 250% 100%;
+  animation: gradient 15s ease infinite;
+  letter-spacing: 0.1rem;
   width: 100vw;
 }
-
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .App {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  grid-template-rows: min-content;
-  position: relative;
+  display: grid;
   min-height: 100vh;
   font-family: "Kameron";
   color: white;
-  background: #a2d693;
+
   font-size: 1.1rem;
 }
-
+main {
+  margin-top: 6.5rem;
+}
 img,
 picture,
 svg,
